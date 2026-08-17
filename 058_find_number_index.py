@@ -59,12 +59,12 @@ for i in range(1, 6):
 
 search = int(input('Enter number to search: '))
 
+found = False
+
 for j in range(len(my_list)):
     if search == my_list[j]:
         found = True
         break
-    else:
-        found = False
 
 if found:
     print(f'Number found at index: {j}')
